@@ -3,6 +3,12 @@
   "builds": [
     {"src": "app.py", "use": "@vercel/python"}
   ],
+  "redirects": [
+    {
+      "source": "/api/(.*)",
+      "destination": "app.py"
+    }
+  ],
   "headers": [
     {
       "source": "/api/(.*)",
