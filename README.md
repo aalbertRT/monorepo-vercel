@@ -5,10 +5,10 @@ This is a simple demo app that is meant to run on Vercel.
 It's composed of one Flask API and one VueJS UI.
 
 ### API
+Set the `FLASK_MODE` to **staging** to allow CORS for local tests.
 
 ### UI
 The UI has one button that calls the /api endpoint and displays the returned JSON.
-
 
 ## How to setup the project?
 Create two projects in Vercel, one with **backend** folder, another one with **frontend** folder.
