@@ -11,6 +11,6 @@ bp = Blueprint("bp", __name__)
 
 @bp.route("/")
 def index():
-    return {"message": "Hello Mr Rambox, you're hitting the api"}
+    return {"message": "Hello Mr Rambo, you're hitting the api"}
 
 app.register_blueprint(bp, url_prefix="/api")
