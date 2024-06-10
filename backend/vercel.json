@@ -1,6 +1,6 @@
 {
   "functions": {
-    "app.py": {"runtime": "@vercel/python"}
+    "app.py": {}
   },
   "routes": [
     {
