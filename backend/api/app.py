@@ -7,6 +7,6 @@ app.config.from_prefixed_env()
 if app.config.get("MODE") == "staging":
     CORS(app)
 
-@app.route("")
+@app.route("/")
 def index():
     return {"message": "Hello Mr Kennedy, you're hitting the api"}
