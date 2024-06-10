@@ -9,4 +9,4 @@ if app.config.get("MODE") == "staging":
 
 @app.route("/")
 def index():
-    return {"message": "Hello Mr Rambo, you're hitting the api"}
+    return {"message": "Hello Mr Rambox, you're hitting the api"}
